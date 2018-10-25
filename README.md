@@ -1,4 +1,13 @@
 # glitch
-A google assistant application written for node.js (glitch.com) to get bitcoin data
+A google assistant application written for node.js to get bitcoin data.   
 
-Please view file and clone in order to make changes.
+Instructions: 
+Upload server.js and package.json to your glitch.com account.
+
+Go to dialogFlow, and import the zip file.
+Ensure the API is set to V1 (this does not work with v2)
+Go to FullFillment, and for the webhook put in the link to your glitch (where you uploaded the file)
+
+In DialogFlow, you can now test the following phrases:
+"Bitcoin Price"
+"Bitcoin Status"
